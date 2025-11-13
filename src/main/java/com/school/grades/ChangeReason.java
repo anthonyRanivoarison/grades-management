@@ -9,7 +9,7 @@ import java.time.Instant;
 @Getter
 
 public class ChangeReason {
-    private final int credits;
+    private final double value;
     private final Instant date;
     private final String reason;
 }
